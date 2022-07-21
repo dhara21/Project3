@@ -1,0 +1,48 @@
+.hours {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hoursTop {
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .hoursBottom {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .hoursBottom p {
+    width: 1000px;
+    font-size: 20px;
+  }
+  
+  .hours .hoursBottom h1 {
+    font-weight: 400;
+    font-size: 60px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .hours .hoursBottom .title{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hours .hoursBottom .info{
+    text-align: center;
+  }
+
