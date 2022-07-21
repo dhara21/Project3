@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import ReactTooltip from 'react-tooltip'
+import ReactTooltip from 'react-tooltip';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -80,9 +81,11 @@ const Form = ({ handleClose }) => {
         <Button variant="contained" onClick={handleClose}>
           Cancel
         </Button>
-        <Button type="submit" variant="contained" color="primary">
-          Signup
-        </Button>
+        <Link to = "/Successful">
+          <Button type="submit" variant="contained" color="primary">
+            Signup
+          </Button>
+        </Link>
       </div>
     </form>
   );
